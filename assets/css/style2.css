@@ -1,0 +1,20 @@
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    border:1px solid black;
+    padding: 1%;
+    margin: 0px;
+    display: inline-flex;
+}
+ul{
+    list-style-type:none;;
+}
+
+.navbarcontent ul{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+}
+.navbarcontent ul li{
+    margin: 1rem;
+}
