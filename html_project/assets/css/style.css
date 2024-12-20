@@ -1,0 +1,73 @@
+a{
+    text-decoration: none;
+}
+.logotext{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    background-color: white;
+}
+.navbar{
+    width: 70vw;
+    height: 6ch;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 0px;
+    display: inline-flex;
+    background-color: white;   
+
+}
+ul{
+    list-style-type:none;;
+}
+
+.navbarcontent ul{
+    width:60%;
+    display:flex;
+    justify-content:space-between;
+}
+.navbarcontent ul li{
+    margin: 1rem;
+}
+.navbarcontent ul li a {
+    color: black;
+}
+.navbarcontent ul li :hover{
+    color: red;
+}
+.navbarbuttons2{
+    width:70%;
+    background-color:darkcyan;
+    padding: 0.8%;
+    margin-top: 1%;
+}
+.getstartedbutton{
+    background-color: blue;
+    padding: 1.4em;
+    color:white;
+    border-style:12px;
+    margin-left: 8rem;
+}  
+.getstartedbutton:hover{
+    background-color:darkgray;
+    color: black;
+}
+.paragraph1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}   
+.paragraph2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:medium;
+}             
+.findoutmore{
+    background-color: blue;
+    padding: 0.4em;
+    color:white;
+
+}
+.findoutmore:hover{
+background-color: aquamarine;
+color: black;
+}
