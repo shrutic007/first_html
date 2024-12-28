@@ -1,0 +1,71 @@
+.background{
+    background-color: rgb(153, 219, 245);
+    padding: 10%;
+}
+.background_content{
+    width: 60%;
+    height: 90vh;
+    padding: 0px;
+    font-size: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+
+}
+.background_image{
+    size: 1em;
+    width: 46.8vw;
+    padding: 0px;
+    margin-top:  0%;
+    text-align: center;
+    height: 35vh;
+}
+.text{
+    width: 60%;
+    height: 50vh;
+    padding: 0px;
+    font-size: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4.5em;
+
+}
+.p{
+    color: rgb(97, 94, 94);
+}
+.followbutton{
+    background-color: rgb(9, 103, 245);
+    color: white;
+    border-radius: 9px;
+    border: none;
+    padding: 7px;
+    width: 6em;
+}
+.followbutton:hover{
+    color: rgb(9, 103, 245);
+    background-color: white;
+    border: 1px solid rgb(9, 103, 245);
+}
+.numbers{
+    font-weight: 700;
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+}
+.profile{
+    top: 0;
+    left: 0;
+    width: 21%;
+    height: 22%;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 10.5vw;
+    left:19vw;
+    padding: 0.4em;
+    
+}
