@@ -1,0 +1,317 @@
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    border: 1px solid rgb(201, 195, 195);
+    /* position: fixed; */
+}
+.logotext{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #032d60;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 2em;
+}
+.logotext:hover{
+    color: #0176D3;
+}
+.img{
+    width: 3vw;
+    margin-right: 2.8px;
+}
+.contents{
+    list-style-type: none;
+    display: flex;
+}
+.contents ul{
+    display: flex;
+    list-style-type: none;
+}
+.contents ul li{
+    margin: 1.8vw;
+    color: #032d60;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.contents ul li:hover{
+    color:#0176D3 ;
+}
+.contents ul li a{
+    display: flex;
+    color: #032d60;
+}
+.contents ul li a:hover{
+    color: #0176D3;
+}
+.browsebutton{
+    /* width: 10vw; */
+    padding: 10px 28px;
+    background-color: #0176D3;
+    border-color: #0176D3;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 16px 0px 0px 120px;
+    border-radius: 5px;
+    text-align: center;
+}
+.browsebutton:hover{
+    background-color: #032d60;
+}
+.maindiv{
+    display: flex;
+}
+.main{
+    border-right: 1px solid rgb(201, 195, 195); 
+    /* position: fixed; */
+}
+.maintext{
+    color: #032d60;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 3em;
+}
+.searchbar{
+    display: inline-flex;
+    color: rgb(99, 96, 96);
+    background-color: white;
+    border: 1px solid rgb(201, 195, 195);
+    margin: 0em 0em 1em 2em;
+}
+.searchbar:hover{
+    border: 2px solid #0176D3;
+}
+.searchinput{
+    padding: 6px 90px 6px 5px;
+    background-color: transparent;
+    border: none;
+}
+.searchinput input:focus{
+    outline: none;
+}
+.searchicon{
+   margin: 4px 5px 2px 5px;
+   color: rgb(99, 96, 96);
+}
+.select{
+    border: 1px solid rgb(201, 195, 195);
+    border-right: transparent;
+}
+.selector{
+    color: #0176D3;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: sans-serif;
+    padding:5px 3px 5px 4px ;
+    margin: 0.9em 0em 1em 1.7em;
+    border: none;
+}
+.selector option:hover{
+    background-color: rgb(216, 224, 228);
+}
+.main2{
+    list-style-type: none;
+    border-bottom: transparent;
+}
+.li1{
+    color: #0176D3;
+    font-weight: bold;
+    margin-top: 1.5em !important;
+}
+.main2 ul{
+    list-style-type: none;
+    /* margin: 0.1em 0px 0.5em 0px; */
+    color: #032d60;
+}
+.main2 ul li{
+    margin: 0em 1em 1em 0em;  
+}
+.main2 ul li:hover{
+    background-color: #97bcdb;
+}
+.main3{
+     margin-left: 3em;
+}
+.head{
+    font-family: sans-serif;
+    font-weight: 700 ;
+    font-size: 45px;
+    /* margin:1em 0em 2em 1em; */
+    color: #032d60;
+}
+.paragraph{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #181818;
+}
+.notediv{
+    background-color: #eef4ff;
+    margin: 1em 0em 0em 3em;
+    border-left: 4px solid #0176D3;
+    border-radius: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 19vh;
+    padding-top: 1em;
+}    
+.info{
+    color: #0176D3;
+    font-size: 1.5em;
+    display:flex ;
+    padding-left: 17px;
+}
+.note{
+    color: black;
+    font-size: 16px;
+    margin: 5px 0px 0px 10px;
+    font-weight: 500;
+}
+.par{
+    font-size: 17px;
+    padding-left: 3em;
+
+
+}
+.SOAP{
+    color: #0176D3;
+}
+.SOAP:hover{
+    text-decoration: underline;
+}
+.unorderlist{
+    margin: 2em 0em 0em 3em;
+    font-size: 15px;
+}
+.linkcolor{
+    color: #0176D3;
+    font-weight: bold;
+}
+.linkcolor:hover{
+    text-decoration: underline;
+}
+.par2{
+    border: 2px solid rgb(201, 195, 195);
+    border-left: none;
+    border-right: none;
+    width: 64vw;
+    height: 12vh;
+    margin: 4em;
+    display: flex;
+}
+.text{
+    line-height:2px ;
+    margin: 1em 0em;
+}
+.feedbackbutton{
+    color: #0176D3;
+    border: 1px solid #0176D3;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 2em 1em 2em 27em;
+    font-weight: bold;
+    background-color: white;  
+}
+.footer{
+    background-color: #F1F3FB;
+    height: 53vh;
+    width: 74.4vw;
+    margin-top: 13rem;
+    display: flex;
+    justify-content: space-around;
+}
+.saleforce_img{
+    width: 5em;
+    height: 5em;
+    margin: 2em 0em 0em 2em;
+}
+.footer .icon{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 1em;
+    margin: 2em;
+}
+.iconsize{
+    font-size: 1.6em;
+    color: white;
+    background-color: #032d60;
+    border: 1px solid #032d60;
+    border-radius: 50%;
+    padding: 0.3em;
+    text-align: center;
+}
+.iconsize:hover{
+    color: #c5e1f8;
+}
+.fhead{
+    color: #032d60;
+}
+.ftext{
+    color: #0176D3;
+}
+.saleforcetext{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.footer2{
+    background-color: #032d60;
+    height: 30vh;
+    width: 74.4vw;
+}
+.footer2text{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    padding: 3em;
+}
+.refcontent{
+    color: #0176D3;
+}
+.footer2text2{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.refcontent2{
+    color: #0176D3;
+}
+.refcontent2:hover{
+    color: #c5e1f8;;
+}
+.yourprivacyimg{
+    width: 2.2em;
+    margin-top: 0;
+}
+
+@media(max-width:500px)and(min-width:450px){
+    .navbar .logotext .contents .contents_ul
+    .contents ul li a{
+       flex-direction: column-reverse;
+       width: 100%;
+    }
+    .maindiv{
+        flex-direction: column;
+    }
+    .searchbar{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .par2{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer2text2{
+        flex-direction: column;
+    }
+}
